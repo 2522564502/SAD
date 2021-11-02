@@ -37,6 +37,11 @@ const routes = [
       path: 'car',
       name: 'car',
       component: () => import('../views/kcgl/car.vue'),
+     },
+     {
+      path: 'first',
+      name: 'first',
+      component: () => import('../views/first/first.vue'),
      }
     ]
 
